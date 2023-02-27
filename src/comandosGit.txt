@@ -1,0 +1,23 @@
+//comandos git
+
+git init
+
+git add .
+
+//toma todos los archivos del proyecto o es como se tomara una fotografia
+
+git commit -m "primer commit"
+
+
+//para recuperar la ultima version del commit
+
+git checkout -- .
+
+
+//subir a la nube de github
+
+
+
+git branch -M main
+git remote add origin https://github.com/rapv97/react-Gif-expert.git
+git push -u origin main 
